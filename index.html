@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu" style="display: rows; align-items: center; justify-content: center;font-size: 32px;">
+            <!-- Aqui vai o seu menu -->
+            <ul style="list-style: none;">
+                <li><a href="#home" style="text-decoration: none;">Home</a></li>
+                <li><a href="#sobre" style="text-decoration: none;">Sobre nos</a></li>
+                <li><a href="#contato" style="text-decoration: none;">Conato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div id="home" class="header">
+                <!-- Aqui vai o seu header -->
+                <img class="imagem" src="./assets/img/pexels-mart-production-7089304.jpg" alt="">
+                <h1 style="text-align: right;">Clinica Viver Bem</h1>
+                
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h2>Ginecologista</h2>
+                <p class="text1">
+                    <img class="imagem" style="width: 450px;" src="/assets/img/pexels-mart-production-7089338.jpg" alt="">
+
+                    Entenda o que seu corpo diz, agende sua consulta ginecológica.
+                    Um ginecologista é um médico especializado em cuidar da saúde dos órgãos reprodutivos femininos, incluindo o útero, os ovários e os trompas de Falópio. Eles tratam uma ampla variedade de problemas de saúde relacionados ao sistema reprodutivo feminino, como infecções, disfunção menstrual, gravidez, aborto e menopausa. Além disso, os ginecologistas também podem fornecer cuidados pré-natais a mulheres grávidas e acompanhar o desenvolvimento fetal durante a gravidez.
+                    Algumas das atividades comuns de um ginecologista incluem:
+                    Realizar exames físicos e avaliações médicas completas para diagnosticar problemas de saúde relacionados ao sistema reprodutivo feminino
+                    Prescrever medicamentos e outros tratamentos para tratar condições ginecológicas, como infecções, disfunção menstrual e câncer de ovário
+                    Realizar cirurgias ginecológicas, como histerectomias e procedimentos de reparo de incontinência urinária
+                    Fornecer conselhos e orientação aos pacientes sobre como cuidar da saúde reprodutiva e gerenciar suas condições de saúde
+                    Trabalhar em conjunto com outros profissionais de saúde para fornecer cuidados integrados aos pacientes
+                    Os ginecologistas podem trabalhar em hospitais, clínicas, consultórios médicos ou em uma prática privada. Eles também podem realizar pesquisas e escrever artigos científicos sobre a saúde reprodutiva feminina e as doenças relacionadas.
+                    </p>
+                    <span><a href="#home">(Voltar)</a></span>
+                    <p>Tabela de Serviços: </p>
+                    <table border="2">
+                        <thead>
+                            <colgroup span="4"></colgroup>
+                            <tr>
+                                <th>Serviços</th>
+                                <th>Segunda a Sexta</th>
+                                <th>Sábados</th>
+                                <th>Feriados</th>
+                                <th>Preço</th>
+                            </tr>
+                            <tr>
+                                <td>Clínica geral</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                                <td>R$ 250,00</td>
+                            </tr>
+                            <tr>
+                                <td>Pediatria</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>08h - 14h</td>
+                                <td>R$ 250,00</td>
+                            </tr>
+                            <tr>
+                                <td>Obstreta</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>-</td>
+                                <td>R$ 350,00</td>
+                            </tr>
+                            <tr>
+                                <td>Ginecologista</td>
+                                <td>08h - 19h</td>
+                                <td>08h - 14h</td>
+                                <td>-</td>
+                                <td>R$ 350,00</td>
+                            </tr>
+                        </thead>
+                    </table>
+                    <br><br>
+                    <span><a href="#home">(Voltar)</a></span>
+                    <h2 id="sobre">Sobre nos</h2>
+                    <p class="text1">
+                        Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição tipográfica. Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1500, quando um impressor desconhecido pegou uma prova de tipos e a misturou para fazer um livro de espécimes de tipos. Ela sobreviveu não apenas a cinco séculos, mas também ao salto para a composição tipográfica eletrônica, permanecendo essencialmente inalterada. Foi popularizado na década de 1960 com o lançamento de folhas Letraset contendo passagens de Lorem Ipsum e, mais recentemente, com software de editoração eletrônica como Aldus PageMaker, incluindo versões de Lorem Ipsum.
+                    </p>
+                    <br><br>
+                    <h2 id="contato">Contato</h2>
+                    <form action="">
+                        <label for="">Nome: </label>
+                    <input type="text"><br><br>
+                    <label for="">E-mail:</label>
+                    <input type="email"><br><br>
+                    <label for="">Assunto:</label>
+                    <input type="text"><br><br>
+                    <label for="">Mensagem:</label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+
+                    <input type="submit" value="Enviar" style="cursor: pointer; margin-right: 60px;"><input type="reset" value="Limpar" style="cursor: pointer;">
+                    </form>
+                    <br>
+                    <span><a href="#home">(Voltar)</a></span>
+            </div>
+            
+            <div class="footer" style="display: grid; grid-template-columns: 1fr 1fr;">
+                <!-- Aqui vai o seu rodapé -->
+                <div style="display: rows; margin-left: 30px; align-items: center; justify-content: center; height: 100%; width: 100%;">
+                    <p>Autor: MKawan</p>
+                    <p>Curso: DIO</p>
+                </div>
+                <div style="display: rows; align-items: center; justify-content: center; height: 100%; width: 100%;">
+                    <p>Links</p>
+                    <p><a href="http://github.com/MKawan" target="_blank">autor</a></p>
+                    <a href="http://dio.me" target="_blank">DIO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
